@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<h1>PROGRMA - JUEGO DE ADIVINACION</h1>
+
+<script>
+    function saltarLinea(){
+        document.write("<br>");
+    }
+
+    function imprimir(frase){
+        document.write(frase);
+        saltarLinea();
+    }
+
+    for(var linea = 1; linea <= 3; linea++){
+
+        for(var columnas = 1; columnas <= 10; columnas++){
+
+            document.write("*");
+        }
+        
+        saltarLinea();
+
+    } 
+
+    saltarLinea();
+    saltarLinea();
+    
+    imprimir("fin");
+
+</script>
