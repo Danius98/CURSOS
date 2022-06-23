@@ -1,0 +1,16 @@
+.pie-de-pagina{
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    .cabecera{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+}
